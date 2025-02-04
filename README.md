@@ -1,12 +1,20 @@
 # vk-bot
 Клонируйте репозиторий:
-git clone https://github.com/pollyaana/vk-bot.git
+
+git clone https://github.com/pollyaana/vk-bot.git 
+
 Установите зависимости:
+
 pip install -r requirements.txt
-Заполните конфигурацию в config.py.
+
+Заполните конфигурацию в config.py:
+
 GROUP_TOKEN - токен сообщества вк
+
 GROUP_ID - id сообщества вк
+
 Запустите бота:
+
 python3 main.py
 
 P.S К сожалению, не получилось сделать отправку сообщения при первом заходе в чат, получается только приветсвенное после первого отправленного сообщения от пользователя, либо через настройки самой группы :(
